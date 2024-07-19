@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Lancer le serveur",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/server.js",
+            "runtimeArgs": [],
+            "env": {
+                "NODE_ENV": "development"
+            }
+        }
+    ]
+}
